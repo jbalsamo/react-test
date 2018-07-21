@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 80px;
+}
+
+.App-logo:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-family: 'Monoton', cursive;
+  font-size: 2em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: rotate(-4deg);
+  }
+  
+  20%, 80% {
+    transform: rotate(8deg);
+  }
+
+  30%, 50%, 70% {
+    transform: rotate(-8deg);
+  }
+
+  40%, 60% {
+    transform: rotate(8deg);
+  }
+}
